@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main class="dashboard-report">
+      <article class="main-report-card">
+        <div class="report-card-user-info">
+          <img
+            src="images/image-jeremy.png"
+            alt="Photo of report author Jeremy Robson"
+            class="report-user-img"
+          />
+          <div class="report-user-data">
+            <p class="report-user-indicator">Report for</p>
+            <p class="report-user-name">Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="report-card-period">
+          <button class="btn-period">Daily</button>
+          <button class="btn-selected-period btn-period">Weekly</button>
+          <button class="btn-period">Monthly</button>
+        </div>
+      </article>
+
+      <article class="dasboard-report-card">
+        <div class="report-card-main-content">
+          <div class="report-card-header">
+            <p data-card-title="Work">Work</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="dots-icon" />
+          </div>
+          <div class="report-card-time-info">
+            <p data-curr-duration="Work" class="current-duration">0hrs</p>
+            <p data-prev-duration="Work" class="previous-period-duration"></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="dasboard-report-card">
+        <div class="report-card-main-content">
+          <div class="report-card-header">
+            <p data-card-title="Play">Play</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="dots-icon" />
+          </div>
+          <div class="report-card-time-info">
+            <p data-curr-duration="Play" class="current-duration">0hrs</p>
+            <p data-prev-duration="Play" class="previous-period-duration"></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="dasboard-report-card">
+        <div class="report-card-main-content">
+          <div class="report-card-header">
+            <p data-card-title="Study">Study</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="dots-icon" />
+          </div>
+          <div class="report-card-time-info">
+            <p data-curr-duration="Study" class="current-duration">0hrs</p>
+            <p data-prev-duration="Study" class="previous-period-duration"></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="dasboard-report-card">
+        <div class="report-card-main-content">
+          <div class="report-card-header">
+            <p data-card-title="Exercise">Exercise</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="dots-icon" />
+          </div>
+          <div class="report-card-time-info">
+            <p data-curr-duration="Exercise" class="current-duration">0hrs</p>
+            <p
+              data-prev-duration="Exercise"
+              class="previous-period-duration"
+            ></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="dasboard-report-card">
+        <div class="report-card-main-content">
+          <div class="report-card-header">
+            <p data-card-title="Social">Social</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="dots-icon" />
+          </div>
+          <div class="report-card-time-info">
+            <p data-curr-duration="Social" class="current-duration">0hrs</p>
+            <p data-prev-duration="Social" class="previous-period-duration"></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="dasboard-report-card">
+        <div class="report-card-main-content">
+          <div class="report-card-header">
+            <p data-card-title="Self Care">Self Care</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="dots-icon" />
+          </div>
+          <div class="report-card-time-info">
+            <p data-curr-duration="Self Care" class="current-duration">0hrs</p>
+            <p
+              data-prev-duration="Self Care"
+              class="previous-period-duration"
+            ></p>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
