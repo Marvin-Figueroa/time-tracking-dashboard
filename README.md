@@ -29,7 +29,7 @@ This is my solution to the [Time tracking dashboard challenge on Frontend Mentor
 
 ### Links
 
-- Live Site URL: [Solution Hosted using GitHub Pages](https://marvin-figueroa.github.io/huddle-landing-page/)
+- Live Site URL: [Solution Hosted using GitHub Pages](https://marvin-figueroa.github.io/time-tracking-dashboard/)
 
 ### Built with
 
