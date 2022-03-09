@@ -32,7 +32,7 @@ async function getData() {
   let data = null;
 
   try {
-    data = await (await fetch("./datas.json")).json();
+    data = await (await fetch("./data.json")).json();
   } catch (e) {
     console.error("The period data could not be loaded");
     data = [];
